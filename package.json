@@ -1,0 +1,23 @@
+{
+  "name": "agar.io",
+  "version": "1.0.0",
+  "description": "Agar.io clone ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CostinV92/Agar.io-clone.git"
+  },
+  "author": "Victor Gabriel Costin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CostinV92/Agar.io-clone/issues"
+  },
+  "homepage": "https://github.com/CostinV92/Agar.io-clone#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
