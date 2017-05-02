@@ -4,7 +4,7 @@
   "description": "Agar.io clone ",
   "main": "app.js",
   "scripts": {
-    "start": "cd lib/common/ && ls | browserify player.js game.js -o ../../public/js/common.js && cd - && node app.js"
+    "start": "cd lib/common/ && ls | browserify player.js game.js connection.js -o ../../public/js/common.js && cd - && node app.js"
   },
   "repository": {
     "type": "git",
