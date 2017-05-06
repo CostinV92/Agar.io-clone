@@ -4,7 +4,7 @@
   "description": "Agar.io clone ",
   "main": "app.js",
   "scripts": {
-    "start": "cd lib/common/ && ls | browserify player.js game.js connection.js -o ../../public/js/common.js && cd - && node app.js"
+    "start": "cd lib/common/ && ls | browserify player.js game.js connection.js ../../node_modules/number-pairings/lib/pairings.js ../../node_modules/number-pairings/lib/helpers.js -o ../../public/js/common.js && cd - && node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "body-parser": "^1.17.1",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
+    "number-pairings": "^1.2.0",
     "socket.io": "^1.7.3"
   }
 }
